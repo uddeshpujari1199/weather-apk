@@ -1,0 +1,25 @@
+.Serach{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.Serach input{
+    border: none;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+}
+.Serach button{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    padding: 10px;
+    padding: 10px 30px;
+    margin-left: 20px;
+}
+.Serach button:hover{
+    background-color: rgb(153, 45, 247);
+    color: white;
+}
